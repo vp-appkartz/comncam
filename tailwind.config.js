@@ -73,15 +73,15 @@ export default {
         "unit": "8px"
       },
       "fontFamily": {
-        "body-md": ["'Open Sans'", "sans-serif"],
-        "label-md": ["'Open Sans'", "sans-serif"],
-        "body-lg": ["'Open Sans'", "sans-serif"],
-        "headline-lg": ["'Open Sans'", "sans-serif"],
-        "display-xl": ["'Open Sans'", "sans-serif"],
-        "headline-md": ["'Open Sans'", "sans-serif"],
-        "headline-sm": ["'Open Sans'", "sans-serif"],
-        "headline-lg-mobile": ["'Open Sans'", "sans-serif"],
-        "display-lg": ["'Open Sans'", "sans-serif"]
+        "body-md": ["'Inter'", "sans-serif"],
+        "label-md": ["'Inter'", "sans-serif"],
+        "body-lg": ["'Inter'", "sans-serif"],
+        "headline-lg": ["'Inter'", "sans-serif"],
+        "display-xl": ["'Inter'", "sans-serif"],
+        "headline-md": ["'Inter'", "sans-serif"],
+        "headline-sm": ["'Inter'", "sans-serif"],
+        "headline-lg-mobile": ["'Inter'", "sans-serif"],
+        "display-lg": ["'Inter'", "sans-serif"]
       },
       fontSize: {
         "body-md": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],

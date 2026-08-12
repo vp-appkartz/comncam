@@ -27,7 +27,7 @@ const Home = () => {
               Engineering the Future
             </div>
 
-            <h1 className="font-display-lg font-medium text-4xl md:text-5xl lg:text-[64px] text-on-background leading-tight md:leading-[1.15] tracking-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <h1 className="font-display-lg font-bold text-4xl md:text-5xl lg:text-[64px] text-on-background leading-tight md:leading-[1.15] tracking-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               Transforming Big Ideas Into <br className="hidden lg:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
                 Scalable Digital Solutions
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Content */}
             <div className="space-y-8">
-              <h2 className="font-display-lg font-medium text-4xl md:text-5xl text-on-background leading-tight tracking-tight">
+              <h2 className="font-display-lg font-bold text-4xl md:text-5xl text-on-background leading-tight tracking-tight">
                 Innovative Technology Built Around Your <br className="hidden md:block" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
                   Business Goals
@@ -108,7 +108,7 @@ const Home = () => {
                 <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
                   <span className="material-symbols-outlined text-primary text-3xl">verified</span>
                 </div>
-                <h3 className="font-display-sm font-medium text-xl text-on-background leading-tight">10+ Years of Industry Experience</h3>
+                <h3 className="font-display-sm font-semibold text-xl text-on-background leading-tight">10+ Years of Industry Experience</h3>
               </div>
               
               {/* Card 2 */}
@@ -116,7 +116,7 @@ const Home = () => {
                 <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
                   <span className="material-symbols-outlined text-primary text-3xl">code_blocks</span>
                 </div>
-                <h3 className="font-display-sm font-medium text-xl text-on-background leading-tight">Custom End-to-End Software Development</h3>
+                <h3 className="font-display-sm font-semibold text-xl text-on-background leading-tight">Custom End-to-End Software Development</h3>
               </div>
               
               {/* Card 3 */}
@@ -124,7 +124,7 @@ const Home = () => {
                 <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
                   <span className="material-symbols-outlined text-primary text-3xl">sync</span>
                 </div>
-                <h3 className="font-display-sm font-medium text-xl text-on-background leading-tight">Agile & Client-Centric Methodology</h3>
+                <h3 className="font-display-sm font-semibold text-xl text-on-background leading-tight">Agile & Client-Centric Methodology</h3>
               </div>
               
               {/* Card 4 */}
@@ -132,7 +132,7 @@ const Home = () => {
                 <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
                   <span className="material-symbols-outlined text-primary text-3xl">shield_locked</span>
                 </div>
-                <h3 className="font-display-sm font-medium text-xl text-on-background leading-tight">Enterprise-Grade Security & Quality Assurance</h3>
+                <h3 className="font-display-sm font-semibold text-xl text-on-background leading-tight">Enterprise-Grade Security & Quality Assurance</h3>
               </div>
             </div>
           </div>

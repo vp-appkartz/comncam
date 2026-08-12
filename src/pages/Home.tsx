@@ -89,16 +89,24 @@ const Home = () => {
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Content */}
-            <div className="space-y-8">
-              <h2 className="font-display-lg font-bold text-4xl md:text-5xl text-on-background leading-tight tracking-tight">
-                Innovative Technology Built Around Your <br className="hidden md:block" />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
-                  Business Goals
-                </span>
+            <div className="flex flex-col items-start pr-0 lg:pr-8">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary font-bold text-sm mb-6 tracking-wide uppercase">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                Why Choose Us
+              </div>
+              
+              <h2 className="font-display-lg font-bold text-3xl md:text-4xl lg:text-5xl text-on-background leading-tight tracking-tight mb-6">
+                Innovative Technology Built Around Your <span className="text-primary">Business Goals</span>
               </h2>
-              <p className="font-body-lg text-on-surface-variant">
+              
+              <p className="font-body-lg text-on-surface-variant leading-relaxed mb-8 text-lg md:text-xl max-w-xl">
                 At Comncam Solutions Ltd., we don’t just write code—we engineer custom technology that drives efficiency, revenue, and seamless user experiences. Based in Alberta, Canada, our expert team partners with ambitious startups and established enterprises across industries to deliver future-ready software, IoT infrastructure, and modern web applications.
               </p>
+              
+              <Link to="/about" className="group inline-flex items-center gap-2 font-bold text-primary hover:text-primary/80 transition-colors">
+                Discover our methodology
+                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+              </Link>
             </div>
             
             {/* Right: Feature Cards */}

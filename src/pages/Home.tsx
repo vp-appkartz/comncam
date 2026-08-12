@@ -102,37 +102,37 @@ const Home = () => {
             </div>
             
             {/* Right: Feature Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Card 1 */}
-              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-primary text-2xl">verified</span>
+              <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                  <span className="material-symbols-outlined text-primary text-3xl">verified</span>
                 </div>
-                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">10+ Years of Industry Experience</h3>
+                <h3 className="font-display-sm text-xl text-on-background leading-tight">10+ Years of Industry Experience</h3>
               </div>
               
               {/* Card 2 */}
-              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-primary text-2xl">code_blocks</span>
+              <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                  <span className="material-symbols-outlined text-primary text-3xl">code_blocks</span>
                 </div>
-                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Custom End-to-End Software Development</h3>
+                <h3 className="font-display-sm text-xl text-on-background leading-tight">Custom End-to-End Software Development</h3>
               </div>
               
               {/* Card 3 */}
-              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-primary text-2xl">sync</span>
+              <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                  <span className="material-symbols-outlined text-primary text-3xl">sync</span>
                 </div>
-                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Agile & Client-Centric Methodology</h3>
+                <h3 className="font-display-sm text-xl text-on-background leading-tight">Agile & Client-Centric Methodology</h3>
               </div>
               
               {/* Card 4 */}
-              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-primary text-2xl">shield_locked</span>
+              <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                  <span className="material-symbols-outlined text-primary text-3xl">shield_locked</span>
                 </div>
-                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Enterprise-Grade Security & Quality Assurance</h3>
+                <h3 className="font-display-sm text-xl text-on-background leading-tight">Enterprise-Grade Security & Quality Assurance</h3>
               </div>
             </div>
           </div>

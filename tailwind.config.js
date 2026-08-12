@@ -1,0 +1,114 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "on-primary": "#ffffff",
+        "primary": "#0058be",
+        "on-secondary-fixed-variant": "#38485d",
+        "on-secondary": "#ffffff",
+        "on-tertiary-fixed": "#141d21",
+        "surface-container-high": "#e2e7ff",
+        "primary-container": "#2170e4",
+        "error": "#ba1a1a",
+        "surface": "#faf8ff",
+        "surface-dim": "#d2d9f4",
+        "background": "#faf8ff",
+        "on-background": "#131b2e",
+        "on-secondary-container": "#54647a",
+        "tertiary-container": "#6d767b",
+        "primary-fixed-dim": "#adc6ff",
+        "on-primary-container": "#fefcff",
+        "surface-tint": "#005ac2",
+        "on-tertiary": "#ffffff",
+        "on-tertiary-fixed-variant": "#3f484d",
+        "secondary-fixed-dim": "#b7c8e1",
+        "on-tertiary-container": "#fbfdff",
+        "surface-container-highest": "#dae2fd",
+        "error-container": "#ffdad6",
+        "on-secondary-fixed": "#0b1c30",
+        "primary-fixed": "#d8e2ff",
+        "tertiary-fixed": "#dbe4ea",
+        "outline": "#727785",
+        "inverse-on-surface": "#eef0ff",
+        "secondary": "#505f76",
+        "inverse-surface": "#283044",
+        "on-error-container": "#93000a",
+        "surface-variant": "#dae2fd",
+        "inverse-primary": "#adc6ff",
+        "secondary-fixed": "#d3e4fe",
+        "on-primary-fixed-variant": "#004395",
+        "on-surface-variant": "#374151",
+        "on-surface": "#131b2e",
+        "surface-container-lowest": "#ffffff",
+        "on-error": "#ffffff",
+        "secondary-container": "#d0e1fb",
+        "surface-bright": "#faf8ff",
+        "outline-variant": "#c2c6d6",
+        "tertiary-fixed-dim": "#bfc8ce",
+        "on-primary-fixed": "#001a42",
+        "tertiary": "#545d62",
+        "surface-container-low": "#f2f3ff",
+        "surface-container": "#eaedff"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px",
+        "3xl": "1.5rem",
+        "4xl": "2rem"
+      },
+      "spacing": {
+        "margin-desktop": "64px",
+        "gutter": "24px",
+        "container-max": "1280px",
+        "margin-mobile": "20px",
+        "section-gap": "120px",
+        "unit": "8px"
+      },
+      "fontFamily": {
+        "body-md": ["'Open Sans'", "sans-serif"],
+        "label-md": ["'Open Sans'", "sans-serif"],
+        "body-lg": ["'Open Sans'", "sans-serif"],
+        "headline-lg": ["'Open Sans'", "sans-serif"],
+        "display-xl": ["'Open Sans'", "sans-serif"],
+        "headline-md": ["'Open Sans'", "sans-serif"],
+        "headline-sm": ["'Open Sans'", "sans-serif"],
+        "headline-lg-mobile": ["'Open Sans'", "sans-serif"],
+        "display-lg": ["'Open Sans'", "sans-serif"]
+      },
+      fontSize: {
+        "body-md": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+        "label-md": ["15px", { "lineHeight": "22px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+        "body-lg": ["20px", { "lineHeight": "32px", "fontWeight": "400" }],
+        "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+        "display-xl": ["72px", { "lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+        "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        }
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+        'fade-in-up': 'fadeInUp 0.8s ease-out both',
+      }
+    },
+  },
+  plugins: [],
+}

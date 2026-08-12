@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TechNexus - Building the Digital World of Tomorrow</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Hanken+Grotesk:wght@600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary": "#ffffff",
+                        "primary": "#0058be",
+                        "on-secondary-fixed-variant": "#38485d",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#141d21",
+                        "surface-container-high": "#e2e7ff",
+                        "primary-container": "#2170e4",
+                        "error": "#ba1a1a",
+                        "surface": "#faf8ff",
+                        "surface-dim": "#d2d9f4",
+                        "background": "#faf8ff",
+                        "on-background": "#131b2e",
+                        "on-secondary-container": "#54647a",
+                        "tertiary-container": "#6d767b",
+                        "primary-fixed-dim": "#adc6ff",
+                        "on-primary-container": "#fefcff",
+                        "surface-tint": "#005ac2",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#3f484d",
+                        "secondary-fixed-dim": "#b7c8e1",
+                        "on-tertiary-container": "#fbfdff",
+                        "surface-container-highest": "#dae2fd",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed": "#0b1c30",
+                        "primary-fixed": "#d8e2ff",
+                        "tertiary-fixed": "#dbe4ea",
+                        "outline": "#727785",
+                        "inverse-on-surface": "#eef0ff",
+                        "secondary": "#505f76",
+                        "inverse-surface": "#283044",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#dae2fd",
+                        "inverse-primary": "#adc6ff",
+                        "secondary-fixed": "#d3e4fe",
+                        "on-primary-fixed-variant": "#004395",
+                        "on-surface-variant": "#424754",
+                        "on-surface": "#131b2e",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#d0e1fb",
+                        "surface-bright": "#faf8ff",
+                        "outline-variant": "#c2c6d6",
+                        "tertiary-fixed-dim": "#bfc8ce",
+                        "on-primary-fixed": "#001a42",
+                        "tertiary": "#545d62",
+                        "surface-container-low": "#f2f3ff",
+                        "surface-container": "#eaedff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px",
+                        "3xl": "1.5rem",
+                        "4xl": "2rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px",
+                        "section-gap": "120px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-md": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display-xl": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-sm": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-xl": ["72px", { "lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.08);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(0, 88, 190, 0.05), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(0, 88, 190, 0.02), transparent 50%);
+        }
+        .plexus-bg {
+            background-image: radial-gradient(rgba(0, 88, 190, 0.1) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-lg border-b border-white/20 shadow-[0_8px_32px_rgba(59,130,246,0.08)] transition-all duration-300">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20">
+<!-- Brand -->
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">hexagon</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">TechNexus</span>
+</div>
+<!-- Navigation Links (Desktop) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md transition-colors" href="#">Solutions</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Platform</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Resources</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Pricing</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Company</a>
+</div>
+<!-- Actions -->
+<div class="hidden md:flex items-center gap-4">
+<a class="font-label-md text-label-md text-on-surface hover:text-primary transition-colors" href="#">Login</a>
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-md text-label-md hover:bg-primary/90 transition-all shadow-[0_4px_12px_rgba(0,88,190,0.2)] hover:shadow-[0_6px_16px_rgba(0,88,190,0.3)] flex items-center gap-2" href="#">
+                    Book a Demo
+                    <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex items-center pt-16 pb-section-gap hero-gradient overflow-hidden">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid md:grid-cols-2 gap-gutter items-center relative z-10">
+<!-- Text Content -->
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5">
+<span class="material-symbols-outlined text-primary text-sm">chat_bubble</span>
+<span class="font-label-md text-label-md text-primary">Let's Talk</span>
+</div>
+<h1 class="font-display-xl text-display-xl text-on-background uppercase leading-[0.95]">
+                        Building The <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Digital World</span> Of <br/>
+                        Tomorrow
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                        TechNexus is a leading software development company specializing in innovative, scalable digital solutions tailored to meet your unique enterprise needs.
+                    </p>
+<div class="flex items-center gap-4 pt-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover:bg-primary/90 transition-all shadow-[0_8px_24px_rgba(0,88,190,0.25)] flex items-center gap-2 group" href="#">
+                            Contact us
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Abstract 3D Graphic Area -->
+<div class="relative h-[600px] w-full flex justify-center items-center">
+<div class="absolute inset-0 bg-primary/5 rounded-full blur-3xl scale-150 animate-pulse"></div>
+<img class="w-full h-full object-contain relative z-10 scale-110 drop-shadow-2xl" data-alt="A highly detailed, photorealistic 3D render of a futuristic translucent blue glass sphere suspended in mid-air, surrounded by flowing, dynamic ribbon-like geometric waves. The aesthetic is clean, minimalist 'Future-Tech' light mode, featuring soft bright lighting, ethereal glows, and a pure white background. High-end corporate software technology vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGoKyIPFgVj0H8VJssQOIEqAkMrzX4szvw87vj337rEQ8ah3-_FvD50rshHL0vpjRPRVyOMm4RJ8WwSkV1bj8QwKOV4v-qOgQRjJbfPX0tT8O2rH_LKxOisu0Kse7_KUsqXC0pJeR43Ct2tfFsfPikoanh3MmRzBmtFCLfrNUo8lzdcX64mTK3Nlok-n6EOO1cJtaWXLqL7J-EYBn1x2bSrV8TYAnXdxZgxS1B-U4Yb155SoDsiPX7zw"/>
+<!-- Floating Glass Card -->
+<div class="absolute bottom-10 right-10 glass-card rounded-2xl p-6 z-20 animate-[bounce_4s_infinite]">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-1 h-4 bg-primary rounded-full"></div>
+<span class="font-label-md text-xs text-on-surface-variant uppercase tracking-wider">Drive More Traffic and Sales</span>
+</div>
+<p class="font-headline-sm text-sm font-semibold text-on-background mb-4">Drive more traffic<br/>and product sales</p>
+<div class="flex items-end gap-2 h-16">
+<div class="w-4 bg-primary/20 rounded-t-sm h-8"></div>
+<div class="w-4 bg-primary/40 rounded-t-sm h-12"></div>
+<div class="w-4 bg-primary/60 rounded-t-sm h-10"></div>
+<div class="w-4 bg-primary rounded-t-sm h-16"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trusted Clients -->
+<section class="border-y border-outline-variant/30 bg-surface/50 py-8">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center gap-8 md:gap-16">
+<p class="font-label-md text-label-md text-on-surface-variant w-32 shrink-0">Our Trusted<br/>Clients companies</p>
+<div class="flex-1 flex justify-between items-center gap-8 overflow-x-auto no-scrollbar opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+<span class="font-headline-sm text-xl font-bold tracking-tighter flex items-center gap-2"><span class="material-symbols-outlined">grid_view</span> Microsoft</span>
+<span class="font-headline-sm text-xl font-bold tracking-tighter text-red-600">NETFLIX</span>
+<span class="font-headline-sm text-xl font-bold tracking-tighter flex items-center gap-1 text-green-600"><span class="material-symbols-outlined">shopping_bag</span> shopify</span>
+<span class="font-headline-sm text-xl font-bold tracking-tighter flex items-center gap-1"><span class="material-symbols-outlined">tag</span> slack</span>
+<span class="font-headline-sm text-xl font-bold tracking-tighter text-blue-600">intel</span>
+</div>
+</div>
+</section>
+<!-- Why Choose Us & About -->
+<section class="py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid md:grid-cols-2 gap-16 items-start">
+<!-- Left: Stats & Experience -->
+<div class="space-y-6">
+<div class="flex gap-6">
+<div class="bg-primary text-on-primary rounded-3xl p-8 flex-1 aspect-square flex flex-col justify-center relative overflow-hidden group hover:scale-[1.02] transition-transform">
+<div class="absolute -right-8 -top-8 w-32 h-32 border border-white/20 rounded-full"></div>
+<div class="absolute -right-16 -top-16 w-48 h-48 border border-white/10 rounded-full"></div>
+<h3 class="font-display-xl text-5xl font-bold mb-2">10+</h3>
+<p class="font-label-md text-lg mb-2">Years Experience</p>
+<p class="font-body-md text-sm text-primary-fixed opacity-80">TechNexus is a leading software development company</p>
+</div>
+<div class="bg-surface-container-low rounded-3xl p-8 flex-1 aspect-square flex justify-center items-center relative overflow-hidden group hover:scale-[1.02] transition-transform border border-outline-variant/20">
+<img class="w-3/4 object-contain" data-alt="A highly detailed 3D render of a glowing blue holographic cube hovering above a high-tech metallic pedestal, emitting soft blue light rays. The background is a clean, bright minimalist white studio setting. Futuristic data processing aesthetic, extremely sharp and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPx_VgNP7YMXfN7V5qtY55u-bJNHWq2kpuTyWlGjEH1M_deFmq6L8U3hxeJsBf4Ptz7WTyFb_b7QFX-_kouLVk_0FXuwxLWJQDaE7JB3bHyOsBpqpTtkUg4Wl68zN5VqwsyFk9_gBD99fNH2rksMD_qo-a2AsNVWXGd-vJTxe0MxHZR64vQd-gTaDOLLwq9qFIXe6Cwf_0Iu68gNwIjlOhKVhPDL_0kmG6d881jXI-YG2Uzxj0oyOV0A"/>
+</div>
+</div>
+<div class="flex items-start gap-4 p-6 glass-card rounded-2xl">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">pie_chart</span>
+</div>
+<p class="font-body-md text-on-surface-variant">We provide a comprehensive suite of services tailored to meet the diverse needs businesses, whether you're just beginning your digital transformation.</p>
+</div>
+</div>
+<!-- Right: Text Content -->
+<div class="flex flex-col justify-center h-full space-y-8">
+<h2 class="font-display-lg text-display-lg text-on-background leading-tight">
+                            We are a leading software development company in UK, specializing in innovative, scalable digital solutions. To meet your unique needs.
+                        </h2>
+<div class="flex items-center gap-4">
+<a class="bg-primary text-on-primary px-8 py-3.5 rounded-full font-label-md text-label-md hover:bg-primary/90 transition-all flex items-center gap-2" href="#">
+                                Explore more
+                                <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="border border-outline px-8 py-3.5 rounded-full font-label-md text-label-md text-on-surface hover:bg-surface-container transition-all flex items-center gap-2" href="#">
+                                Contact us
+                                <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container rounded-t-[2rem] border-t border-outline-variant mt-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-12">
+<!-- Brand Col -->
+<div class="col-span-1 md:col-span-2 space-y-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">hexagon</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">TechNexus</span>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-sm">
+                        Crafting the digital world of tomorrow through scalable, innovative software solutions tailored for high-growth enterprises.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined">link</span></a>
+<a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<!-- Links Col -->
+<div>
+<h4 class="font-label-md text-label-md text-on-surface font-bold mb-4 uppercase tracking-wider">Company</h4>
+<ul class="space-y-3">
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Product</a></li>
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Solutions</a></li>
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Careers</a></li>
+</ul>
+</div>
+<!-- Legal Col -->
+<div>
+<h4 class="font-label-md text-label-md text-on-surface font-bold mb-4 uppercase tracking-wider">Legal</h4>
+<ul class="space-y-3">
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+<li><a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant/50 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-sm text-on-surface-variant">© 2024 TechNexus Inc. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<span class="font-label-md text-sm text-on-surface-variant hover:text-primary cursor-pointer">Privacy Policy</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span class="font-label-md text-sm text-on-surface-variant hover:text-primary cursor-pointer">Terms of Service</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

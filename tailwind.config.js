@@ -73,6 +73,7 @@ export default {
         "unit": "8px"
       },
       "fontFamily": {
+        "sans": ["'Outfit'", "sans-serif"],
         "body-md": ["'Outfit'", "'Google Sans'", "sans-serif"],
         "label-md": ["'Outfit'", "'Google Sans'", "sans-serif"],
         "body-lg": ["'Outfit'", "'Google Sans'", "sans-serif"],

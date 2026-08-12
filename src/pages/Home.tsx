@@ -170,11 +170,17 @@ const Home = () => {
             </div>
             <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">Custom Web Design & Development</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Fast, responsive, and SEO-optimized web solutions tailored to reflect your brand identity and convert visitors.</p>
-            <ul className="text-base text-on-surface-variant space-y-3">
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom Front-End & Back-End</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>E-Commerce & Portal Development</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>CMS Integration & Optimization</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">code</span>Custom Front-End & Back-End
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">shopping_cart</span>E-Commerce & Portal Development
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">speed</span>CMS Integration & Optimization
+              </div>
+            </div>
           </div>
 
           {/* Mobile App Development */}
@@ -184,11 +190,17 @@ const Home = () => {
             </div>
             <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">Mobile App Development</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Native and cross-platform mobile apps built for performance, security, and effortless user engagement.</p>
-            <ul className="text-base text-on-surface-variant space-y-3">
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>iOS & Android (Flutter / React)</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Intuitive User Interfaces</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Scalable Backend Integration</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">devices</span>iOS & Android (Flutter / React)
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">touch_app</span>Intuitive User Interfaces
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">cloud</span>Scalable Backend Integration
+              </div>
+            </div>
           </div>
 
           {/* POS & Security Software */}
@@ -198,11 +210,17 @@ const Home = () => {
             </div>
             <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">POS & Security Software</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Customized Point-of-Sale engines and robust security systems to streamline operations and safeguard business data.</p>
-            <ul className="text-base text-on-surface-variant space-y-3">
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom POS Development</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Security & Access Control</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Payment Gateway Integration</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">storefront</span>Custom POS Development
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">lock</span>Security & Access Control
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">payments</span>Payment Gateway Integration
+              </div>
+            </div>
           </div>
 
           {/* IoT Solutions */}
@@ -212,11 +230,17 @@ const Home = () => {
             </div>
             <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">IoT Solutions</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Smart device integration and embedded software that connect hardware to real-time cloud data and analytics.</p>
-            <ul className="text-base text-on-surface-variant space-y-3">
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Smart Device Connectivity</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Real-time Dashboards</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Cloud Architecture & Control</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">sensors</span>Smart Device Connectivity
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">dashboard</span>Real-time Dashboards
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">cloud_sync</span>Cloud Architecture & Control
+              </div>
+            </div>
           </div>
 
           {/* UI/UX Experience Design */}
@@ -226,11 +250,17 @@ const Home = () => {
             </div>
             <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">UI/UX Experience Design</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Human-centered UI/UX design that transforms complex functional requirements into beautiful, intuitive digital journeys.</p>
-            <ul className="text-base text-on-surface-variant space-y-3">
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>User Research & Wireframing</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Interactive Prototyping</li>
-              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Usability Testing</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">person_search</span>User Research & Wireframing
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">animation</span>Interactive Prototyping
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 border border-outline-variant/30 font-semibold text-sm text-on-surface shadow-sm">
+                <span className="material-symbols-outlined text-primary text-base">verified_user</span>Usability Testing
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -149,74 +149,87 @@ const Home = () => {
 
       {/* Section 3: Core Services Grid */}
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-section-gap pt-24">
-        <div className="text-center mb-16">
-          <h2 className="font-headline-lg text-headline-lg text-on-background mb-4">Our Core Tech Capabilities</h2>
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Comprehensive IT and software engineering solutions tailored to your operational needs.</p>
+        <div className="flex flex-col items-center text-center mb-16 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary font-bold text-sm mb-6 tracking-wide uppercase">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+            Our Expertise
+          </div>
+          <h2 className="font-display-lg font-bold text-3xl md:text-4xl lg:text-5xl text-on-background leading-tight tracking-tight mb-6">
+            Our Core Tech <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#00a8ff]">Capabilities</span>
+          </h2>
+          <p className="font-body-lg text-on-surface-variant leading-relaxed text-lg md:text-xl max-w-2xl mx-auto">
+            Comprehensive IT and software engineering solutions tailored to your operational needs.
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Custom Web Design & Development */}
-          <div className="border border-outline-variant/30 rounded-2xl p-8 hover:border-primary/50 transition-colors">
-            <div className="w-12 h-12 bg-surface-container rounded-xl flex items-center justify-center mb-6">
-              <span className="material-symbols-outlined text-primary">language</span>
+          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
+              <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">language</span>
             </div>
-            <h3 className="font-headline-sm text-headline-sm mb-3">Custom Web Design & Development</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-4">Fast, responsive, and SEO-optimized web solutions tailored to reflect your brand identity and convert visitors.</p>
-            <ul className="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
-              <li>Custom Front-End & Back-End</li>
-              <li>E-Commerce & Portal Development</li>
-              <li>CMS Integration & Performance Optimization</li>
+            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">Custom Web Design & Development</h3>
+            <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Fast, responsive, and SEO-optimized web solutions tailored to reflect your brand identity and convert visitors.</p>
+            <ul className="text-sm text-on-surface-variant space-y-3">
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom Front-End & Back-End</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>E-Commerce & Portal Development</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>CMS Integration & Optimization</li>
             </ul>
           </div>
+
           {/* Mobile App Development */}
-          <div className="border border-outline-variant/30 rounded-2xl p-8 hover:border-primary/50 transition-colors">
-            <div className="w-12 h-12 bg-surface-container rounded-xl flex items-center justify-center mb-6">
-              <span className="material-symbols-outlined text-primary">smartphone</span>
+          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
+              <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">smartphone</span>
             </div>
-            <h3 className="font-headline-sm text-headline-sm mb-3">Mobile App Development</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-4">Native and cross-platform mobile apps built for performance, security, and effortless user engagement.</p>
-            <ul className="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
-              <li>iOS & Android (Flutter / React Native)</li>
-              <li>Intuitive User Interfaces</li>
-              <li>Scalable Backend & Cloud Integration</li>
+            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">Mobile App Development</h3>
+            <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Native and cross-platform mobile apps built for performance, security, and effortless user engagement.</p>
+            <ul className="text-sm text-on-surface-variant space-y-3">
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>iOS & Android (Flutter / React)</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Intuitive User Interfaces</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Scalable Backend Integration</li>
             </ul>
           </div>
+
           {/* POS & Security Software */}
-          <div className="border border-outline-variant/30 rounded-2xl p-8 hover:border-primary/50 transition-colors">
-            <div className="w-12 h-12 bg-surface-container rounded-xl flex items-center justify-center mb-6">
-              <span className="material-symbols-outlined text-primary">point_of_sale</span>
+          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
+              <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">point_of_sale</span>
             </div>
-            <h3 className="font-headline-sm text-headline-sm mb-3">POS & Security Software</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-4">Customized Point-of-Sale engines and robust security systems to streamline operations and safeguard business data.</p>
-            <ul className="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
-              <li>Custom POS System Development</li>
-              <li>Security & Access Control Software</li>
-              <li>Inventory & Payment Gateway Integration</li>
+            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">POS & Security Software</h3>
+            <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Customized Point-of-Sale engines and robust security systems to streamline operations and safeguard business data.</p>
+            <ul className="text-sm text-on-surface-variant space-y-3">
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom POS Development</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Security & Access Control</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Payment Gateway Integration</li>
             </ul>
           </div>
+
           {/* IoT Solutions */}
-          <div className="border border-outline-variant/30 rounded-2xl p-8 hover:border-primary/50 transition-colors">
-            <div className="w-12 h-12 bg-surface-container rounded-xl flex items-center justify-center mb-6">
-              <span className="material-symbols-outlined text-primary">router</span>
+          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
+              <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">router</span>
             </div>
-            <h3 className="font-headline-sm text-headline-sm mb-3">IoT (Internet of Things) Solutions</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-4">Smart device integration and embedded software that connect hardware to real-time cloud data and analytics.</p>
-            <ul className="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
-              <li>Smart Device & Sensor Connectivity</li>
-              <li>Real-time Monitoring Dashboards</li>
-              <li>Cloud Architecture & Remote Control</li>
+            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">IoT Solutions</h3>
+            <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Smart device integration and embedded software that connect hardware to real-time cloud data and analytics.</p>
+            <ul className="text-sm text-on-surface-variant space-y-3">
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Smart Device Connectivity</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Real-time Dashboards</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Cloud Architecture & Control</li>
             </ul>
           </div>
+
           {/* UI/UX Experience Design */}
-          <div className="border border-outline-variant/30 rounded-2xl p-8 hover:border-primary/50 transition-colors">
-            <div className="w-12 h-12 bg-surface-container rounded-xl flex items-center justify-center mb-6">
-              <span className="material-symbols-outlined text-primary">design_services</span>
+          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
+              <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">design_services</span>
             </div>
-            <h3 className="font-headline-sm text-headline-sm mb-3">UI/UX Experience Design</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-4">Human-centered UI/UX design that transforms complex functional requirements into beautiful, intuitive digital journeys.</p>
-            <ul className="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
-              <li>User Research & Wireframing</li>
-              <li>Interactive Prototyping</li>
-              <li>Accessibility & Usability Testing</li>
+            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">UI/UX Experience Design</h3>
+            <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Human-centered UI/UX design that transforms complex functional requirements into beautiful, intuitive digital journeys.</p>
+            <ul className="text-sm text-on-surface-variant space-y-3">
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>User Research & Wireframing</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Interactive Prototyping</li>
+              <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Usability Testing</li>
             </ul>
           </div>
         </div>

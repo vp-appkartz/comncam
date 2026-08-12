@@ -99,27 +99,41 @@ const Home = () => {
               <p className="font-body-lg text-on-surface-variant">
                 At Comncam Solutions Ltd., we don’t just write code—we engineer custom technology that drives efficiency, revenue, and seamless user experiences. Based in Alberta, Canada, our expert team partners with ambitious startups and established enterprises across industries to deliver future-ready software, IoT infrastructure, and modern web applications.
               </p>
-              <ul className="space-y-4">
-                {[
-                  "10+ Years of Industry Experience",
-                  "Custom End-to-End Software Development",
-                  "Agile & Client-Centric Methodology",
-                  "Enterprise-Grade Security & Quality Assurance"
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-3 font-body-md text-on-surface">
-                    <span className="material-symbols-outlined text-primary">check_circle</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
             </div>
-            {/* Right: Graphic */}
-            <div className="rounded-2xl p-8 flex-1 aspect-square flex justify-center items-center relative overflow-hidden border border-outline-variant/30">
-              <img 
-                className="w-3/4 object-contain" 
-                alt="Holographic cube"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPx_VgNP7YMXfN7V5qtY55u-bJNHWq2kpuTyWlGjEH1M_deFmq6L8U3hxeJsBf4Ptz7WTyFb_b7QFX-_kouLVk_0FXuwxLWJQDaE7JB3bHyOsBpqpTtkUg4Wl68zN5VqwsyFk9_gBD99fNH2rksMD_qo-a2AsNVWXGd-vJTxe0MxHZR64vQd-gTaDOLLwq9qFIXe6Cwf_0Iu68gNwIjlOhKVhPDL_0kmG6d881jXI-YG2Uzxj0oyOV0A"
-              />
+            
+            {/* Right: Feature Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* Card 1 */}
+              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-primary text-2xl">verified</span>
+                </div>
+                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">10+ Years of Industry Experience</h3>
+              </div>
+              
+              {/* Card 2 */}
+              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-primary text-2xl">code_blocks</span>
+                </div>
+                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Custom End-to-End Software Development</h3>
+              </div>
+              
+              {/* Card 3 */}
+              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-primary text-2xl">sync</span>
+                </div>
+                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Agile & Client-Centric Methodology</h3>
+              </div>
+              
+              {/* Card 4 */}
+              <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 hover:border-primary/50 hover:shadow-md transition-all group">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-primary text-2xl">shield_locked</span>
+                </div>
+                <h3 className="font-headline-sm text-lg text-on-surface leading-snug">Enterprise-Grade Security & Quality Assurance</h3>
+              </div>
             </div>
           </div>
         </div>

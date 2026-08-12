@@ -90,8 +90,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Content */}
             <div className="space-y-8">
-              <h2 className="font-display-lg text-display-lg text-on-background leading-tight">
-                Innovative Technology Built Around Your Business Goals
+              <h2 className="font-display-lg text-4xl md:text-5xl text-on-background leading-tight tracking-tight">
+                Innovative Technology Built Around Your <br className="hidden md:block" />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">
+                  Business Goals
+                </span>
               </h2>
               <p className="font-body-lg text-on-surface-variant">
                 At Comncam Solutions Ltd., we don’t just write code—we engineer custom technology that drives efficiency, revenue, and seamless user experiences. Based in Alberta, Canada, our expert team partners with ambitious startups and established enterprises across industries to deliver future-ready software, IoT infrastructure, and modern web applications.

@@ -164,13 +164,13 @@ const Home = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Custom Web Design & Development */}
-          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <div className="bg-gradient-to-br from-blue-50/80 to-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
               <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">language</span>
             </div>
-            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">Custom Web Design & Development</h3>
+            <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">Custom Web Design & Development</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Fast, responsive, and SEO-optimized web solutions tailored to reflect your brand identity and convert visitors.</p>
-            <ul className="text-sm text-on-surface-variant space-y-3">
+            <ul className="text-base text-on-surface-variant space-y-3">
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom Front-End & Back-End</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>E-Commerce & Portal Development</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>CMS Integration & Optimization</li>
@@ -178,13 +178,13 @@ const Home = () => {
           </div>
 
           {/* Mobile App Development */}
-          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <div className="bg-gradient-to-br from-purple-50/80 to-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
               <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">smartphone</span>
             </div>
-            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">Mobile App Development</h3>
+            <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">Mobile App Development</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Native and cross-platform mobile apps built for performance, security, and effortless user engagement.</p>
-            <ul className="text-sm text-on-surface-variant space-y-3">
+            <ul className="text-base text-on-surface-variant space-y-3">
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>iOS & Android (Flutter / React)</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Intuitive User Interfaces</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Scalable Backend Integration</li>
@@ -192,13 +192,13 @@ const Home = () => {
           </div>
 
           {/* POS & Security Software */}
-          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+          <div className="bg-gradient-to-br from-emerald-50/80 to-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
               <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">point_of_sale</span>
             </div>
-            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">POS & Security Software</h3>
+            <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">POS & Security Software</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Customized Point-of-Sale engines and robust security systems to streamline operations and safeguard business data.</p>
-            <ul className="text-sm text-on-surface-variant space-y-3">
+            <ul className="text-base text-on-surface-variant space-y-3">
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Custom POS Development</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Security & Access Control</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Payment Gateway Integration</li>
@@ -206,13 +206,13 @@ const Home = () => {
           </div>
 
           {/* IoT Solutions */}
-          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <div className="bg-gradient-to-br from-amber-50/80 to-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
               <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">router</span>
             </div>
-            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">IoT Solutions</h3>
+            <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">IoT Solutions</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Smart device integration and embedded software that connect hardware to real-time cloud data and analytics.</p>
-            <ul className="text-sm text-on-surface-variant space-y-3">
+            <ul className="text-base text-on-surface-variant space-y-3">
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Smart Device Connectivity</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Real-time Dashboards</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Cloud Architecture & Control</li>
@@ -220,13 +220,13 @@ const Home = () => {
           </div>
 
           {/* UI/UX Experience Design */}
-          <div className="bg-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+          <div className="bg-gradient-to-br from-rose-50/80 to-white border border-outline-variant/20 rounded-3xl p-8 hover:border-primary/40 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br from-primary/10 to-primary/5 group-hover:from-primary/20 group-hover:to-primary/10 transition-colors">
               <span className="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">design_services</span>
             </div>
-            <h3 className="font-display-sm font-bold text-xl text-on-background leading-tight mb-3">UI/UX Experience Design</h3>
+            <h3 className="font-display-sm font-bold text-2xl text-on-background leading-tight mb-3">UI/UX Experience Design</h3>
             <p className="text-base text-on-surface-variant mb-6 leading-relaxed">Human-centered UI/UX design that transforms complex functional requirements into beautiful, intuitive digital journeys.</p>
-            <ul className="text-sm text-on-surface-variant space-y-3">
+            <ul className="text-base text-on-surface-variant space-y-3">
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>User Research & Wireframing</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Interactive Prototyping</li>
               <li className="flex items-start gap-2"><span className="material-symbols-outlined text-primary text-lg">check</span>Usability Testing</li>
